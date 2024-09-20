@@ -21,7 +21,7 @@ public class Datamanager {
         return dataFile;
     }
 
-    public DataManager(String fileName) {
+    public Datamanager(String fileName) {
         dataFile = new File(fileName);
     }
 
